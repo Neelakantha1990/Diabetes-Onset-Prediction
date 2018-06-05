@@ -10,3 +10,16 @@ All patients are women aged 21 or older. All attributes are numeric, and their u
 Each record has a class value that indicates whether the patient suffered an onset of diabetes within 5 years of when 
 the measurements were taken (1) or not (0).
 
+
+Steps Followed:-
+
+Implemented  neural networks to predict onset of Diabetes with accuracy of 79%(Approx) on training set with 100  epochs and batch size of 20 neurons
+
+Performed grid search for learning rate and dropout rate to attain accuracy of 78%(Approx) to figure out the best parameter to tune and unto what extent 
+
+Optimized kernel initialization and activation functions for Grid Search to attain  a accuracy on train set of 79.37% 
+
+Performed a grid search to find the optimal number of neurons i.e 16  in each hidden layer achieveing good accuracy score on train set of 79% 
+
+Predicted results on validation set with accuracy of 78% which is closer to train set prediction achieved above , results were tracked using classification report
+
